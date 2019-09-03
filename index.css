@@ -1,10 +1,13 @@
+html {
+    background: fixed;
+}
+
 body {
 
-background: #200122;  
-background: -webkit-linear-gradient(to bottom, #6f0000, #200122);  
-background: linear-gradient(to bottom, #6f0000, #200122); 
-
-
+    background: #200122;  
+    background: -webkit-linear-gradient(to bottom, #6f0000, #200122);  
+    background: linear-gradient(to bottom, #6f0000, #200122); 
+    /* background: fixed; */
 display: block;
 min-width: 640px;
 max-width: 940px;
@@ -14,5 +17,6 @@ box-shadow: rgba(0, 0, 0, 0.61) 10px 10px 25px;
 border: 4px double rgb(0, 0, 0);
 border-radius: 10px;
 font-family: 'Play', sans-serif;
+text-align: center;
 
 }
