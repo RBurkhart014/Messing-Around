@@ -1,22 +1,132 @@
 html {
-    background: fixed;
+    background: url('metal.JPG') fixed;
+    height: 200px;
+    width: 350;
 }
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
 body {
 
     background: #200122;  
     background: -webkit-linear-gradient(to bottom, #6f0000, #200122);  
     background: linear-gradient(to bottom, #6f0000, #200122); 
-    /* background: fixed; */
-display: block;
-min-width: 640px;
-max-width: 940px;
-margin-left: auto;
-margin-right: auto;
-box-shadow: rgba(0, 0, 0, 0.61) 10px 10px 25px;
-border: 4px double rgb(0, 0, 0);
-border-radius: 10px;
-font-family: 'Play', sans-serif;
-text-align: center;
+    display: block;
+    min-width: 640px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.61) 10px 10px 25px;
+    border: 4px double rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
 
+footer {  
+        background-color: #F1F1F1;
+        text-align: center;
+        padding: 10px;  
+}
+
+nav {
+    display: block;
+    min-width: 640px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.61) 10px 10px 25px;
+    border: 4px double rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 1000px;
+    color: white;
+}
+
+  
+  /* ==============================
+ Mobile Styles 0px to 480px
+  ===============================
+ */ 
+@media only screen and (max-width: 480px) {
+  /* nav.horizontal a {
+      font-size: 1.5em;
+      line-height: 2.2em;
+  }
+  aside {
+      display: none;
+  } */
+}
+/* =============================
+Tablet Styles 481px and greater
+===============================
+*/ 
+@media only screen and (min-width: 481px) {
+  /* ul.mainmenu > li {
+      float: left;
+      width: 20%;
+      position: relative;
+  }
+  ul.submenu {
+      width: 200%;
+      box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+      position: absolute;
+  } */
+}
+/* =============================
+Desktop Styles 769px and greater
+===============================
+*/ 
+@media only screen and (min-width: 769px) {
+  /* ul.submenu {
+      background: transparent;
+      box-shadow: none;
+      display: block;
+      position: relative;
+      width: 100%;
+  }
+  nav.horizontal::after {
+      clear: both;
+      content: "";
+      display: table;
+  }
+  nav.horizontal a.submenuTitle {
+      display: none;
+  }
+  article {
+      float: left;
+      margin-right: 5%;
+      width: 55%;
+  }
+  aside {
+      float: left;
+      width: 40%;
+  } */
 }
