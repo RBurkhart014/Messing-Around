@@ -17,7 +17,77 @@
             </nav>
       </header>
 
-   </body>
 
-   
+
+      <section>
+            <form id="memberForm" method="post" action="">
+               <label for="username">Member Name</label>
+               <input id="username" name="user" type="text" />
+               <label for="password">Password</label>
+               <input type="password" id="password" name="pwd" />
+            </form>
+         </section>
+         <section id="orderSection">
+            <form id="orderForm" name="orderForm" method="GET" action="co_payment.html">
+              
+              <table id="orderTable">
+                 <caption>Checkout</caption>
+                 <tr>
+                    <td class="rightA">
+                       <label for="qty">Qty</label>
+                       <select name="qty" id="qty">
+                          <option value="1" selected>1</option>
+                          <option value="2">2</option><option value="3">3</option>
+                          <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                          <option value="7">7</option><option value="8">8</option><option value="9">9</option>
+                          <option value="10">10</option>
+                       </select>   
+                    </td>                        
+                 <tr>
+                    <td colspan="2" class="rightA">Subtotal</td>
+                    <td class="outcell">
+                       <input type="text" name="subtotal" id="subtotal" size="10" readonly />
+                    </td>
+                 </tr>
+      
+                 <tr>
+                    <td colspan="2" class="rightA">Tax (5%)</td>
+                    <td>
+                       <input type="text" name="salesTax" id="salesTax" size="10" readonly />
+                    </td>
+                 </tr>
+      
+                 <tr>
+                    <td colspan="2" class="rightA">TOTAL</td>
+                    <td>
+                       <input type="text" name="totalCost" id="totalCost" size="10" readonly />
+                    </td>
+                 </tr>
+              </table>
+              <input type="submit" id="buttonAdd" value="add to cart" />
+      
+            </form>
+         </section>
+         <footer>
+            
+            <p>VengeanceProductions &copy; 2019 All Rights Reserved</p>
+            <nav id="bottom">
+                  <ul>
+                     <li><a href="#"><img id="fbicon" src="co_fbicon.png" alt="" />facebook</a></li>
+                     <li><a href="#"><img id="twittericon" src="co_twittericon.png" alt="" />twitter</a></li>
+                  </ul>
+                  <ul>
+                     <li><a href="#">help &amp; info</a></li>
+                     <li><a href="#">track your order</a></li>
+                     <li><a href="#">shipping info</a></li>
+                     <li><a href="#">returns</a></li>
+                  </ul>        
+                  <ul>
+                     <li><a href="#">order history</a></li>
+                     <li><a href="#">contact us</a></li>
+                  </ul>
+               </nav>
+         </footer>
+         <script src="co_order.js"></script>
+   </body>
 </html>
