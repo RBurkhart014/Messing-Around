@@ -4,14 +4,15 @@
    <head>
          <meta charset="utf-8" />
          <title>Vengeance Productions</title> 
-         <link rel="stylesheet" href="index.css">  
+         <link rel="stylesheet" href="index.css"> 
+         <link rel="stylesheet" href="Index Payment.html"> 
    </head>
    
    <body> 
       <header>
             <img src="anarchy_200x200.png" alt="anarchy" width="75" height="75">
             <h1>Vengeance Productions</h1>      
-            <nav>
+            <nav id="Merch">
              Merchandice
              <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
             </nav>
@@ -19,14 +20,32 @@
 
 
 
-      <section>
-            <form id="memberForm" method="post" action="">
-               <label for="username">Member Name</label>
-               <input id="username" name="user" type="text" />
-               <label for="password">Password</label>
-               <input type="password" id="password" name="pwd" />
-            </form>
-         </section>
+
+
+
+      <nav id="familyLinks">
+         <ul>
+            <li><a href="">Merch</a></li>               
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li class=""><a href=""></a><li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>   
+         </ul>
+      </nav>
+
+
+
+
+
+
+
+
+
          <section id="orderSection">
             <form id="orderForm" name="orderForm" method="GET" action="co_payment.html">
               
@@ -64,13 +83,12 @@
                     </td>
                  </tr>
               </table>
-              <input type="submit" id="buttonAdd" value="add to cart" />
+              <a href="Index Payment.html"><input type="submit" id="buttonAdd" value="add to cart" /></a>
       
             </form>
          </section>
          <footer>
-            
-            <p>VengeanceProductions &copy; 2019 All Rights Reserved</p>
+         
             <nav id="bottom">
                   <ul>
                      <li><a href="#"><img id="fbicon" src="co_fbicon.png" alt="" />facebook</a></li>
@@ -87,6 +105,7 @@
                      <li><a href="#">contact us</a></li>
                   </ul>
                </nav>
+               <p>VengeanceProductions &copy; 2019 All Rights Reserved</p>
          </footer>
          <script src="co_order.js"></script>
    </body>
