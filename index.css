@@ -226,13 +226,14 @@ form#orderForm fieldset label {
 }
 
 form#orderForm input#buttonAdd {
-  display: block;
   width: 120px;
   height: 35px;
   margin: 15px auto;
-  background-color: rgba(119, 219, 140, 0.651);
+  background-color: rgba(27, 27, 27, 0.651);
+  box-shadow: rgb(78, 8, 8);
   font-size: 1.3em;
   border-radius: 20px;
+  text-decoration: none;
 }
 
 ul {
@@ -248,14 +249,14 @@ footer {
 }
 
 nav#bottom {
-  align: center;
+  text-align: center;
   border: none;
   box-shadow: none;
   margin-right: 50px;
 }
 
 nav#bottom ul li {
-  font-size: 0.5em;
+  font-size: 1.3em;
 }
 
 nav#bottom ul a {
@@ -271,21 +272,26 @@ footer p {
   padding: 10px 0px;
 }
 
+p#pay {
+  font-family: 'Permanent Marker', cursive;
+}
 
+h1#payfont {
+  font-family: 'Permanent Marker', cursive;
+}
 
-
-
-
-
-
-
-
+caption#caporder {
+  font-family: 'Permanent Marker', cursive;
+}
 
 #familyLinks ul {
-  background: radial-gradient(white, rgb(151, 222, 151), rgb(81, 125, 81));
-  border: 4px double rgb(45, 93, 62);
+  background: radial-gradient(grey, rgb(32, 32, 32), black);
+  border: 4px double rgb(78, 8, 8);
   border-radius: 30px;
-  box-shadow: rgba(51, 91, 51, 0.4) 0px 0px 20px 10px;
+  box-shadow: rgb(78, 8, 8) 0px 0px 20px 10px;
+  color: white;
+  margin-left: -50px;
+  margin-right: -50px;
 }
 
 aside li {
@@ -298,6 +304,7 @@ aside li.newGroup {
 }
 
 nav#familyLinks a {
-	color: black;
-	text-decoration: none;
+	color: rgb(180, 180, 180);
+  text-decoration: none;
+  
 }
