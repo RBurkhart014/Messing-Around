@@ -42,9 +42,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     box-shadow: rgba(0, 0, 0, 0.61) 10px 10px 25px;
-    border: 4px double rgb(0, 0, 0);
+    border: 4px double rgb(78, 8, 8);;
     border-radius: 10px;
     font-family: 'Play', sans-serif;
+    font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial;
     text-align: center;
 }
 
@@ -64,6 +65,7 @@ nav#familyLinks {
     margin-bottom: 90px;
     color: black;
     font-family: 'Permanent Marker', cursive;
+    /* font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial; */
     font-size: 30px;
     margin-left: 150px;
     margin-right: 150px;
@@ -71,10 +73,12 @@ nav#familyLinks {
 
 nav#Merch {
     border: 4px double rgb(0, 0, 0);
-    border-radius: 10px;
+    border-radius: 30px;
     color: black;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 30px;
+    margin-top: -20px;
+    /* font-family: 'Permanent Marker', cursive; */
+      
+    font-size: 35px;
 }
 
 
@@ -253,35 +257,41 @@ nav#bottom {
   border: none;
   box-shadow: none;
   margin-right: 50px;
+  margin-top: -60px;
 }
 
 nav#bottom ul li {
-  font-size: 1.3em;
+  font-size: 1.9em;
 }
 
 nav#bottom ul a {
-  color: rgb(26, 55, 184);
+  color: rgb(78, 8, 8);;
+  text-decoration: none;
 }
 
 footer p {
   color: black;
   font-size: 2em;
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial;
   text-align: center;
   margin: 0px;
   padding: 10px 0px;
 }
 
 p#pay {
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial;
 }
 
 h1#payfont {
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial;
 }
 
 caption#caporder {
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial;
 }
 
 #familyLinks ul {
@@ -311,4 +321,18 @@ nav#familyLinks a {
 
 input#buttonAdd {
   
+}
+
+nav#bottom ul a:link,
+nav#bottom ul a:visited {
+    text-decoration-line: none;
+}
+
+nav#bottom ul a:hover,
+nav#bottom ul a:active {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+  color: rgb(78, 8, 8);
 }
