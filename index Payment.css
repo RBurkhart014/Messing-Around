@@ -1,0 +1,146 @@
+/* overall background & its size */
+html {
+    background: url('metal.JPG') fixed;
+    width: 350;
+}
+
+  /* the body has the ability to edit the color of the white and grey gradient (main background) and it centers all the text on body,
+  and it gives a small box shadow with the red double lined border & text font overall. */
+  body {
+    background: rgba(173, 169, 150, 0.5);  
+    background: -webkit-linear-gradient(to bottom, rgba(234, 234, 234, 0.5), rgba(219, 219, 219, 0.5), rgba(242, 242, 242, 0.5), rgba(173, 169, 150, 20));  
+    background: linear-gradient(to bottom, rgba(234, 234, 234, 20), rgba(219, 219, 219, 0.5), rgba(242, 242, 242, 0.5), rgba(173, 169, 150, 0.5)); 
+    display: block;
+    min-width: 640px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.61) 10px 10px 25px;
+    border: 4px double rgb(78, 8, 8);;
+    border-radius: 10px;
+    font-family: 'Play', sans-serif;
+    font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial;
+    text-align: center;
+}
+
+  /* ==============================
+ Mobile Styles 0px to 480px
+  ===============================
+ */ 
+ @media only screen and (max-width: 480px) {
+
+}
+/* =============================
+Tablet Styles 481px and greater
+===============================
+*/ 
+@media only screen and (min-width: 481px) {
+
+}
+/* =============================
+Desktop Styles 769px and greater
+===============================
+*/ 
+@media only screen and (min-width: 769px) {
+ 
+}
+
+/* keeps the entire your order section centered & in position */
+table#orderTable {
+    margin: 15px;
+    width: 95%;
+    border-collapse: collapse;
+  }
+  
+  /* keeps the words "your order" bolded and to the left */
+  table#orderTable caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: left;
+    caption-side: top;
+    margin-bottom: 20px;
+    color: rgb(140, 22, 22);
+  }
+  
+  /* spaces out the words, total, subtotal, & tax */
+  table#orderTable td {
+    height: 30px;
+    vertical-align: top;
+  }
+  
+  /* keeps the spacing on the payment page inbetween your oder and credit information */
+  table#orderTable tr:last-of-type td {
+    padding-top: 15px;
+  }
+  
+  /* keeps the subtotal, tax & total words right next to the boxes rather than those floating around */
+  table#orderTable td.rightA {
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  /* changes the footer of the Vengeance productions payment page  */
+p#pay {
+    font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial;
+    font-size: 2.0em;
+  }
+  
+  /* changes the font of the checkout word at the top of the payment page  */
+  h1#payfont {
+    font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial;
+    font-size: 2.0em;
+  }
+  
+  /* Changes the font of the "your order" text on the payment page */
+  caption#caporder {
+    font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial;
+  }
+
+  /* gets rid of the dots on the lists */
+  ul {
+    list-style: none;
+  }
+
+  /* changes the size of the "required item" text on the form */
+  p#footnote {
+      font-size: 1.3em;
+      color: rgb(44, 19, 167);
+  }
+
+  /* changes the allignment of the links at the bottom, keeps no box shadow and no border */
+  nav#bottom {
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    margin-right: 50px;
+    margin-top: -60px;
+  }
+  
+  /* changes the size of the links at the bottom */
+  nav#bottom ul li {
+    font-size: 1.9em;
+  }
+  
+  /* changes the color of the links and gets rid of the underline */
+  nav#bottom ul a {
+    color: rgb(140, 22, 22);
+    text-decoration: none;
+  }
+
+  /* All the nav bottoms make it so when you hover over the red links they turn black  */
+nav#bottom ul a:link,
+nav#bottom ul a:visited {
+    text-decoration-line: none;
+}
+
+nav#bottom ul a:hover,
+nav#bottom ul a:active {
+    color: rgb(0, 0, 0);
+}
+
+/* edits the color of the "credit information" text */
+legend {
+    color: rgb(140, 22, 22); 
+}
+
